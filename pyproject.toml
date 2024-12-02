@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nlp-article-classification"
+version = "0.1.0"
+description = ""
+authors = ["ledsouza <leandro.souza.159@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+setuptools = "^75.6.0"
+wheel = "^0.45.1"
+spacy = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
