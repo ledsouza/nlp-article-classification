@@ -6,11 +6,13 @@ authors = ["ledsouza <leandro.souza.159@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
 pandas = "^2.2.3"
 setuptools = "^75.6.0"
 wheel = "^0.45.1"
-spacy = "^3.8.2"
+spacy = "3.7.0"
+gensim = "^4.3.3"
+scikit-learn = "^1.5.2"
 
 
 [tool.poetry.group.dev.dependencies]
